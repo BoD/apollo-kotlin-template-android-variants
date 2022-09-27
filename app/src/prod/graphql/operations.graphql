@@ -1,0 +1,12 @@
+query ProductQuery {
+    product(id: "converse-1") {
+        id
+    }
+}
+
+query ProdProductQuery {
+    product(id: "converse-1") {
+        id
+        sku
+    }
+}
